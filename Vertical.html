@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Icon Bar</title>
+
+    <style>
+        body {margin: 0;}
+
+        .icon_bar{
+            width: 90px;
+            background-color: #555;
+        }
+        .icon_bar a{
+            display: block;
+            text-align: center;
+            padding: 16px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 36px;
+        }
+        .icon_bar a:hover{
+            background-color: white;
+        }
+        .active{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="icon_bar">
+        <a href="#" class="active" title="Home"><img src="home.png" alt="Home"></a>
+        <a href="#" title="Search"><img src="search.png" alt="search"></a>
+        <a href="#" title="Message"><img src="message.png" alt="Message"></a>
+    </div>
+    
+</body>
+</html>
